@@ -15,6 +15,6 @@ public class SampleController {
 
 	@RequestMapping(value = "/getSample")
 	public void getSample(HttpServletRequest request, HttpServletResponse reponse) throws Exception{
-			logger.info("getSample");
+			logger.debug("getSample");
 	}
 }

@@ -18,9 +18,11 @@
 	<root level="error">
 		<appender-ref ref="STDOUT"/>
 	</root>
-	<!-- turn OFF all logging (children can override) -->
-    <root level="INFO">
+
+	<root level="info">
         <appender-ref ref="STDOUT" />
-        <appender-ref ref="FILE" />
+    </root>
+    <root level="debug">
+        <appender-ref ref="STDOUT" />
     </root>
 </configuration>
